@@ -47,6 +47,7 @@ class _FallingTextScreenState extends State<FallingTextScreen>
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
+        MaterialPageRoute(builder: (context) => CustomWebView()),
       );
     });
   }
